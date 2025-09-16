@@ -7,7 +7,9 @@ const Header = () => {
         <header className={'fixed select-none top-0 left-0 w-full border-b border-b-white/10 backdrop-blur-sm z-100'}>
             <div className="container">
                 <nav className={'h-[89px] flex items-center justify-between'}>
-                    <img src={myLogo} alt="#" />
+                    <a href="/">
+                        <img src={myLogo} alt="#" />
+                    </a>
                     <HeaderMenu />
                     <HeaderBurger />
                 </nav>

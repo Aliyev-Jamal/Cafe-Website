@@ -1,4 +1,5 @@
 import About from "./about/about"
+import Chefs from "./chefs/chefs"
 import Dishes from "./dishes/dishes"
 import HomeItems from "./home-items"
 import HomeTitle from "./home-title"
@@ -13,11 +14,11 @@ const Home = () => {
                     <button className={`rounded-[43px] mb-17.5 bg-custom-green font-bold py-6 px-14 hover:scale-[1.05] duration-300`}>Order Now</button>
                     <HomeItems />
                     <About />
-
                 </div>
             </section>
             <Work />
             <Dishes />
+            <Chefs/>
         </>
 
     )
