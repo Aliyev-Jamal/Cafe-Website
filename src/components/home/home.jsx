@@ -3,6 +3,8 @@ import Chefs from "./chefs/chefs"
 import Dishes from "./dishes/dishes"
 import HomeItems from "./home-items"
 import HomeTitle from "./home-title"
+import Recipes from "./recipes/recipes"
+import Social from "./socials/social"
 import Work from "./work/work"
 
 const Home = () => {
@@ -19,8 +21,9 @@ const Home = () => {
             <Work />
             <Dishes />
             <Chefs/>
+            <Recipes/>
+            <Social/>
         </>
-
     )
 }
 
