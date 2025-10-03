@@ -6,8 +6,10 @@ const Social = () => {
         <section>
             <div className={'container'}>
                 <Title bgTitle={`SOCIAL`} text={`We in Social`} />
-                <div>
-                    <SocialItem/>
+                <div className={`flex gap-7.5 mt-[60px] items-start`}>
+                    <SocialItem linkImg={`/icons/twitter-icon.svg`} linkName={`Twitter`} type="text"/>
+                    <SocialItem linkImg={`/icons/instagram-icon.svg`} linkName={`Instagram`} type="image"/>
+                    <SocialItem linkImg={`/icons/facebook-icon.svg`} linkName={`Facebook`} type="text"/>
                 </div>
             </div>
         </section>

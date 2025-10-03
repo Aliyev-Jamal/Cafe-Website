@@ -14,15 +14,15 @@ const Home = () => {
                 <div className="container min-h-svh flex flex-col items-center justify-center">
                     <HomeTitle />
                     <button className={`rounded-[43px] mb-17.5 bg-custom-green font-bold py-6 px-14 hover:scale-[1.05] duration-300`}>Order Now</button>
-                    <HomeItems />
+                    <HomeItems className={`mb-22.5 max-w-[915px] mx-auto w-full !justify-between`} />
                     <About />
                 </div>
             </section>
             <Work />
             <Dishes />
-            <Chefs/>
-            <Recipes/>
-            <Social/>
+            <Chefs />
+            <Recipes />
+            <Social />
         </>
     )
 }
